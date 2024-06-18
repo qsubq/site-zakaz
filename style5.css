@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:white
+  }
+  
+  .header {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+  }
+  
+  .logo {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    left: 200px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 75px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    font-weight: bold;
+    left: 553px;
+  }
+  .kor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    top: 80px;
+    left: 1345px;
+  }
+  .voiti{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30px;
+        top: 80px;
+        left: 960px;
+    }
+  .katalog{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30px;
+        top: 80px;
+        left: 1090px;
+    }
+  
+    .onas{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30px;
+        top: 80px;
+        left: 1218px;
+    }
+    .glav{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            top: 80px;
+            left: 832px;
+  }
+  .katalaq{
+      position: absolute;
+      font-size: 20px;
+      font-weight: bold;
+      top: 170px;
+      left: 600px;
+  }
+
+.holodos {
+    position: absolute;
+    width: 150px;
+    top: 250px;
+    left: 100px;
+}
+.telef{
+    position: absolute;
+    width: 200px;
+    top: 300px;
+    left: 430px; 
+}
+.pile{
+    position: absolute;
+    width: 240px;
+    top: 290px;
+    right: 460px; 
+}
+.mash{
+    position: absolute;
+    width: 230px;
+    top: 290px;
+    right: 100px;   
+}
+.opis{
+    position: absolute;
+    top: 545px;
+    left: 110px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.opis2{
+    position: absolute;
+    top: 545px;
+    left: 495px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.opis3{
+    position: absolute;
+    top: 545px;
+    left: 840px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.opis4{
+    position: absolute;
+    top: 545px;
+    right: 110px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.katalaq{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 150px;
+    left: 660px;
+}
+.telik{
+    position: absolute;
+    width: 230px;
+    top: 620px;
+    right: 100px;   
+} 
+.telikt{
+    position: absolute;
+    top: 850px;
+    right: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ps{
+    position: absolute;
+    width: 200px;
+    top: 620px;
+    right: 460px;  
+}
+.pst{
+    position: absolute;
+    top: 850px;
+    right: 485px;
+    font-size: 20px;
+    font-weight: bold
+}
+.nout{
+    position: absolute;
+    width: 200px;
+    top: 650px;
+    left: 440px; 
+}
+.noutt{
+    position: absolute;
+    top: 850px;
+    left: 495px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.komp{
+    position: absolute;
+    width: 150px;
+    top: 640px;
+    left: 100px
+}
+.kompt{
+    position: absolute;
+    top: 850px;
+    left: 110px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: absolute;
+    top: 700px;
+    width: 1500px;
+    left:-20px;
+}
+
+.footer-content {
+    max-width: 300px;
+    margin: 0 10px;
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer form {
+    display: flex;
+}
+
+.footer input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.footer button {
+    padding: 5px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

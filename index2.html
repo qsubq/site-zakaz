@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - DailyUI #002</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./styleoform.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='payment'>
+  <h1 class='payment__headline'>Оформление заказа</h1>
+  <form class='payment__form'>
+    <div class='payment__group payment__group--name'>
+      <input class='payment__field payment__field--name'>
+      <label class='payment__label payment__label--name'>Город</label>
+    </div>
+    <div class='payment__group payment__group--creditcard'>
+      <input class='payment__field payment__field--creditcard'>
+      <label class='payment__label payment__label--creditcard'>Улица</label>
+    </div>
+    <div class='columns'>
+      <div class='payment__group payment__group--date'>
+        <input class='payment__field payment__field--date'>
+        <label class='payment__label payment__label--date'>Дом</label>
+      </div>
+      <div class='payment__group payment__group--cvv'>
+        <input class='payment__field payment__field--cvv'>
+        <label class='payment__label payment__label--cvv'>Подъезд и номер квартиры <span class="payment__tooltip payment__tooltip--CVV"></span></label>
+      </div>
+    </div>
+  </form>
+  <div class='payment__footer'>
+    <div class='payment__location'>
+      2/2
+    </div>
+    <div class='payment__next'>
+      <a href="#"><strong>Далее</strong>: Оформить доставку <span class="fa fa-arrow-right"></span></a>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:white
+}
+
+.header {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.logo {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  left: 200px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 75px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.kor{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  top: 80px;
+  left: 1345px;
+}
+.voiti{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 30px;
+      top: 80px;
+      left: 960px;
+  }
+.katalog{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 30px;
+      top: 80px;
+      left: 1090px;
+  }
+
+  .onas{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 30px;
+      top: 80px;
+      left: 1218px;
+  }
+  .glav{
+          position: absolute;
+          top: 50%;
+          left: 50%;  
+          transform: translate(-50%, -50%);
+          width: 30px;
+          top: 80px;
+          left: 832px;
+}
+
+.slider {
+  width: 1480px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slider-img.active {
+  opacity: 1;
+}
+
+.slider img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slider .prev {
+  left: 10px;
+}
+
+.slider .next {
+  right: 10px;
+}
+.pil{
+  position: absolute;
+  top:650px;
+  width: 710px;
+  height: 400px;
+  border-radius: 40px;
+}
+.sbp{
+  position: absolute;
+  top:650px;
+  width: 730px;
+  height: 400px;
+  right: 0px;
+  border-radius: 40px;
+}
+.air{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 1010px;
+  left: 180px;
+}
+.pop{
+  position: absolute;
+  top: 1100px;
+  font-weight: bold;
+  font-size: 35px;
+  left: 50px;
+}
+.telik{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 1200px;
+  left: 70px;
+}
+.iphone{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 1200px;
+  left: 70px; 
+}
+.teleph{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  top: 1200px;
+  left: 600px; 
+}
+.holodos{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 1200px;
+  right: 70px;  
+}
+
+.box{
+margin: 50px;
+width: 200px;
+height: 200px;
+box-shadow: 0px 0px 30px 50px;
+margin-top: 1000px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 20px;
+  position: absolute;
+  top: 1100px;
+  width: 1500px;
+  left:-20px;
+}
+
+.footer-content {
+  max-width: 300px;
+  margin: 0 10px;
+}
+
+.footer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer form {
+  display: flex;
+}
+
+.footer input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.footer button {
+  padding: 5px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
